@@ -52,6 +52,18 @@ strong, b { font-family: 'DM Sans', sans-serif; }
     gap: 10px;
 }
 
+.F:hover{
+    background-color: #a69e89b5;
+    transform: scale(1.1);
+}
+.Y:hover{
+      background-color: #a69e89b5;
+    transform: scale(1.1);
+}
+.I:hover{
+      background-color: #a69e89b5;
+    transform: scale(1.1);
+}
 nav ol {
     margin-top: 60px;
     width: 180px;
@@ -143,4 +155,50 @@ justify-content: center;
 .text button:hover{
     background-color: #a69e89cc;
     transform: scale(1.1);
+}
+
+.chart {
+    margin-left: 25px;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: px; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card img {
+    border-radius: 10px;
+    /* border:  2px solid #a69e89cc ; */
+    width: 95%;
+    height:80vh;
+    object-fit: cover;
+    display: block;
+  
+}
+.card img:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+.card {
+    position: relative;
+}
+
+.card i {
+    font-size: 40px;
+    color: red;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 39%;
+    cursor: pointer;
+    z-index: 2;
+
+
+      /* Hide the heart */
+  transform: translate(-50%, -50%) scale(0);
+
+  opacity: 0;
+  transition: transform
+   ease 0.4s;
 }
