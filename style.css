@@ -159,7 +159,7 @@ justify-content: center;
 
 .chart {
     margin-left: 25px;
-    margin-top: 90px;
+    /* margin-top: 90px; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     /* gap: px; */
@@ -178,7 +178,7 @@ justify-content: center;
   
 }
 .card img:hover {
-    transform: scale(1.05) translateY(-5px);
+    transform: scale(1.01) translateY(-1px);
 }
 .card {
     position: relative;
