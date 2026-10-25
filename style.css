@@ -914,6 +914,18 @@ justify-content: center;
     height: auto;
     padding-left: 60px;
 }
+.emil textarea{
+        color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    color: white;
+    border-radius: 10px;
+width: 400px;
+height: 9vh;
+border: none;
+outline: none;
+background-color:#c9c0b5;
+}
 
 .emil input{
     color: white;
